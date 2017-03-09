@@ -12,6 +12,7 @@
 		21B2E3EF1E70517C00B513BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21B2E3ED1E70517C00B513BF /* Main.storyboard */; };
 		21B2E3F11E70517C00B513BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21B2E3F01E70517C00B513BF /* Assets.xcassets */; };
 		21B2E3F41E70517C00B513BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21B2E3F21E70517C00B513BF /* LaunchScreen.storyboard */; };
+		21B2E3FC1E70519D00B513BF /* Volumes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21B2E3FB1E70519D00B513BF /* Volumes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		21B2E3F01E70517C00B513BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		21B2E3F31E70517C00B513BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		21B2E3F51E70517C00B513BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21B2E3FB1E70519D00B513BF /* Volumes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Volumes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				21B2E3F01E70517C00B513BF /* Assets.xcassets */,
 				21B2E3F21E70517C00B513BF /* LaunchScreen.storyboard */,
 				21B2E3F51E70517C00B513BF /* Info.plist */,
+				21B2E3FB1E70519D00B513BF /* Volumes.swift */,
 			);
 			path = TryApi;
 			sourceTree = "<group>";
@@ -137,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				21B2E3EC1E70517C00B513BF /* ViewController.swift in Sources */,
+				21B2E3FC1E70519D00B513BF /* Volumes.swift in Sources */,
 				21B2E3EA1E70517C00B513BF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
